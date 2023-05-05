@@ -23,7 +23,7 @@ async function logJSONData() {
   if (randomQuote <= 1643) {
     document.querySelector(
       '.motivation-txt'
-    ).textContent = `${jsonData[randomQuote].text}`;
+    ).textContent = `"${jsonData[randomQuote].text}"`;
     if (jsonData[randomQuote].author === null) {
       document.querySelector(
         '.motivation-author'

@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-image: url("https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #630101;
+  
+    text-align: center;
+    color: white;
+}
+.container{
+    width: 50%;
+    margin: 100px auto;
+    padding: 50px;
+
+}
+.quote{
+    background-color: rgb(14, 13, 13);
+    color: white;
+    display: none;
+    font-size: 1.5rem;
+    text-shadow: 1px 2px 50px black, 1px 2px 0 rgba(0,0,0, .25), 0 1px 0 rgba(58, 0, 0, 0.4);
+   
+    border-bottom-style: groove;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin:5px auto;
+}
+button{
+    margin: 20px;
+    width: 50%;
+    padding: 15px;
+    color: white;
+    background-color: rgb(58, 58, 58);
+    text-transform: uppercase;
+    border: 2px solid rgb(235, 235, 235);
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 75%;
+        margin: 50px auto;
+        padding: 25px;
+    
+    }
+    .quote{
+        display: none;
+        font-size: 1rem;
+       
+        border-bottom-style: groove;
+        border-radius: 5px;
+        padding: 10px;
+        width: 50%;
+        margin:5px auto;
+    }
+}
+@media screen and (max-width: 300px){
+    .container{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+    
+    }
+    .quote{
+        display: none;
+        font-size: 0.8rem;
+       
+        border-bottom-style: groove;
+        border-radius: 5px;
+        padding: 5px;
+        width: 75%;
+        margin: 5px auto;
+    }
+    button{
+        font-size: 0.5rem;
+        margin: auto 5px;
+        width: 75%;
+        padding: 5px;
+    }
+}
+

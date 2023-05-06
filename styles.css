@@ -14,21 +14,23 @@ body{
     color: white;
 }
 .container{
-    width: 50%;
+    width: 75%;
     margin: 100px auto;
     padding: 50px;
+    font-family: 'Dancing Script', cursive;
+    
 
 }
 .quote{
     background-color: rgb(14, 13, 13);
     color: white;
     display: none;
-    font-size: 1.5rem;
+    font-size: 3rem;
     text-shadow: 1px 2px 50px black, 1px 2px 0 rgba(0,0,0, .25), 0 1px 0 rgba(58, 0, 0, 0.4);
    
     border-bottom-style: groove;
     border-radius: 10px;
-    padding: 15px;
+    padding: 30px;
     width: 50%;
     margin:5px auto;
 }
@@ -56,7 +58,7 @@ button{
         border-radius: 5px;
         padding: 10px;
         width: 50%;
-        margin:5px auto;
+        margin: 5px auto;
     }
 }
 @media screen and (max-width: 300px){
@@ -68,7 +70,7 @@ button{
     }
     .quote{
         display: none;
-        font-size: 0.8rem;
+        font-size: 1.3rem;
        
         border-bottom-style: groove;
         border-radius: 5px;

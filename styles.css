@@ -52,7 +52,7 @@ button{
     }
     .quote{
         display: none;
-        font-size: 1rem;
+        font-size: 1.5rem;
        
         border-bottom-style: groove;
         border-radius: 5px;

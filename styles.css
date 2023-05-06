@@ -18,21 +18,22 @@ body{
     margin: 100px auto;
     padding: 50px;
     font-family: 'Dancing Script', cursive;
-    
-
 }
 .quote{
     background-color: rgb(14, 13, 13);
     color: white;
     display: none;
-    font-size: 3rem;
+    font-size: 2.2rem;
     text-shadow: 1px 2px 50px black, 1px 2px 0 rgba(0,0,0, .25), 0 1px 0 rgba(58, 0, 0, 0.4);
    
     border-bottom-style: groove;
     border-radius: 10px;
-    padding: 30px;
+    padding: 35px;
     width: 50%;
     margin:5px auto;
+}
+.motivation-author{
+    font-size: 1.5rem;
 }
 button{
     margin: 20px;
@@ -42,6 +43,7 @@ button{
     background-color: rgb(58, 58, 58);
     text-transform: uppercase;
     border: 2px solid rgb(235, 235, 235);
+    font-size: 1.2rem;
 }
 @media screen and (max-width: 500px){
     .container{
@@ -56,9 +58,18 @@ button{
        
         border-bottom-style: groove;
         border-radius: 5px;
-        padding: 10px;
+        padding: 15px;
         width: 50%;
         margin: 5px auto;
+    }
+    .motivation-author{
+        font-size: 1.2rem;
+    }
+    button{
+        font-size: 1rem;
+        margin: auto 5px;
+        width: 50%;
+        padding: 5px;
     }
 }
 @media screen and (max-width: 300px){
@@ -74,13 +85,16 @@ button{
        
         border-bottom-style: groove;
         border-radius: 5px;
-        padding: 5px;
+        padding: 10px;
         width: 75%;
         margin: 5px auto;
     }
+    .motivation-author{
+        font-size: 1rem;
+    }
     button{
-        font-size: 0.5rem;
-        margin: auto 5px;
+        font-size: 1rem;
+        margin: 5px 5px;
         width: 75%;
         padding: 5px;
     }
